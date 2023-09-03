@@ -23,11 +23,11 @@ import lombok.Setter;
 @Table(name = User.TABLE_NAME)
 public class User {
 
-    private interface CreateUser {
+    public interface CreateUser {
 
     }
 
-    private interface UpdateUser {
+    public interface UpdateUser {
 
     }
 
